@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-15T15:30:47 EDT" name="Open Cart App Test Regression Suite" finished-at="2026-03-15T15:31:16 EDT" duration-ms="29014">
+    <groups>
+    </groups>
+    <test started-at="2026-03-15T15:30:47 EDT" name="Product Results Page Test" finished-at="2026-03-15T15:31:12 EDT" duration-ms="25221">
+      <class name="com.qa.opencart.tests.ProductResultsPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.opencart.tests.ProductResultsPageTest@68b734a8]" started-at="2026-03-15T15:30:47 EDT" name="setUp" finished-at="2026-03-15T15:30:52 EDT" duration-ms="4965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="productResultSetup()[pri:0, instance:com.qa.opencart.tests.ProductResultsPageTest@68b734a8]" started-at="2026-03-15T15:30:52 EDT" name="productResultSetup" finished-at="2026-03-15T15:30:54 EDT" duration-ms="2060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productResultSetup -->
+        <test-method signature="productImagesTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.ProductResultsPageTest@68b734a8]" started-at="2026-03-15T15:30:56 EDT" name="productImagesTest" data-provider="getSearchExcelTestData" finished-at="2026-03-15T15:30:59 EDT" duration-ms="2387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MacBook Pro]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productImagesTest -->
+        <test-method signature="productImagesTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.ProductResultsPageTest@68b734a8]" started-at="2026-03-15T15:30:59 EDT" name="productImagesTest" data-provider="getSearchExcelTestData" finished-at="2026-03-15T15:31:00 EDT" duration-ms="1587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MacBook Air]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productImagesTest -->
+        <test-method signature="productImagesTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.ProductResultsPageTest@68b734a8]" started-at="2026-03-15T15:31:00 EDT" name="productImagesTest" data-provider="getSearchExcelTestData" finished-at="2026-03-15T15:31:03 EDT" duration-ms="2217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productImagesTest -->
+        <test-method signature="productImagesTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.ProductResultsPageTest@68b734a8]" started-at="2026-03-15T15:31:03 EDT" name="productImagesTest" data-provider="getSearchExcelTestData" finished-at="2026-03-15T15:31:05 EDT" duration-ms="2242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung SyncMaster 941BW]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productImagesTest -->
+        <test-method signature="productImagesTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.ProductResultsPageTest@68b734a8]" started-at="2026-03-15T15:31:05 EDT" name="productImagesTest" data-provider="getSearchExcelTestData" finished-at="2026-03-15T15:31:07 EDT" duration-ms="2436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Canon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Canon EOS 5D]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productImagesTest -->
+        <test-method signature="productImagesTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.opencart.tests.ProductResultsPageTest@68b734a8]" started-at="2026-03-15T15:31:07 EDT" name="productImagesTest" data-provider="getSearchExcelTestData" finished-at="2026-03-15T15:31:10 EDT" duration-ms="2780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Samsung Galaxy Tab 10.1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productImagesTest -->
+        <test-method signature="productInfoTest()[pri:0, instance:com.qa.opencart.tests.ProductResultsPageTest@68b734a8]" started-at="2026-03-15T15:31:10 EDT" name="productInfoTest" finished-at="2026-03-15T15:31:12 EDT" duration-ms="1706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productInfoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.ProductResultsPageTest@68b734a8]" started-at="2026-03-15T15:31:12 EDT" name="tearDown" finished-at="2026-03-15T15:31:12 EDT" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.tests.ProductResultsPageTest -->
+    </test> <!-- Product Results Page Test -->
+    <test started-at="2026-03-15T15:30:47 EDT" name="Login Page Test" finished-at="2026-03-15T15:31:16 EDT" duration-ms="29014">
+      <class name="com.qa.opencart.tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@7fcf294e]" started-at="2026-03-15T15:30:47 EDT" name="setUp" finished-at="2026-03-15T15:30:52 EDT" duration-ms="4965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.qa.opencart.tests.LoginPageTest@7fcf294e]" started-at="2026-03-15T15:30:52 EDT" name="loginPageTitleTest" finished-at="2026-03-15T15:30:53 EDT" duration-ms="1362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="loginPageURLTest()[pri:2, instance:com.qa.opencart.tests.LoginPageTest@7fcf294e]" started-at="2026-03-15T15:30:54 EDT" name="loginPageURLTest" finished-at="2026-03-15T15:30:54 EDT" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageURLTest -->
+        <test-method signature="forgotPwdLinkExistTest()[pri:3, instance:com.qa.opencart.tests.LoginPageTest@7fcf294e]" started-at="2026-03-15T15:30:54 EDT" name="forgotPwdLinkExistTest" finished-at="2026-03-15T15:31:14 EDT" duration-ms="20405" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element found by By.linkText: Forgotten Password11, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Forgotten Password11"}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\syuon\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65409}, goog:processID: 12752, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65409/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d7c30d1fb396f4a43b2ba7c2a8faf439]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.linkText: Forgotten Password11, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Forgotten Password11"}.
+(tried for 20 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.80 (f08938029c88..., userDataDir: C:\Users\syuon\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65409}, goog:processID: 12752, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65409/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d7c30d1fb396f4a43b2ba7c2a8faf439
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:233)
+at com.qa.opencart.utils.ElementUtil.waitForVisibilityOfElement(ElementUtil.java:408)
+at com.qa.opencart.pages.LoginPage.isForgotPwdLinkExist(LoginPage.java:50)
+at com.qa.opencart.tests.LoginPageTest.forgotPwdLinkExistTest(LoginPageTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPwdLinkExistTest -->
+        <test-method signature="appLogExistTest()[pri:4, instance:com.qa.opencart.tests.LoginPageTest@7fcf294e]" started-at="2026-03-15T15:31:14 EDT" name="appLogExistTest" finished-at="2026-03-15T15:31:14 EDT" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appLogExistTest -->
+        <test-method signature="loginTest()[pri:5, instance:com.qa.opencart.tests.LoginPageTest@7fcf294e]" started-at="2026-03-15T15:31:14 EDT" name="loginTest" finished-at="2026-03-15T15:31:16 EDT" duration-ms="1332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@7fcf294e]" started-at="2026-03-15T15:31:16 EDT" name="tearDown" finished-at="2026-03-15T15:31:16 EDT" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.tests.LoginPageTest -->
+    </test> <!-- Login Page Test -->
+  </suite> <!-- Open Cart App Test Regression Suite -->
+</testng-results>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- To comment/uncomment some lines in testng.xml files use "CTRL + Shift 
+	+ C" -->
+<!-- CTRL + SHIFT + / For commenting CTRL + SHIFT + \ For undo the commenting -->
+
+<suite name="Open Cart App Test Regression Suite" verbose="2"
+	thread-count="5" parallel="tests">
+
+
+	<!-- Entry for chaintest report -->
+	<!-- <listeners> -->
+	<!-- <listener -->
+	<!-- class-name="com.aventstack.chaintest.plugins.ChainTestListener"/> -->
+	<!-- </listeners> -->
+
+
+	<listeners>
+		<listener
+			class-name="com.qa.opencart.listeners.TestAllureListener" />
+		<listener
+			class-name="com.qa.opencart.listeners.AnnotationTransformer" />
+	</listeners>
+
+	<test name="Login Page Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.qa.opencart.tests.LoginPageTest" />
+		</classes>
+	</test>
+
+	<!-- <test name="Login Page Negative Test"> -->
+	<!-- <parameter name="browser" value="chrome" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.opencart.tests.LoginPageNegativeTest" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+
+	<!-- <test name="Accounts Page Test"> -->
+	<!-- <parameter name="browser" value="firefox" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.opencart.tests.AccountPageTest" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<test name="Product Results Page Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.qa.opencart.tests.ProductResultsPageTest" />
+		</classes>
+	</test>
+
+
+	<!-- <test name="Register Page Test"> -->
+	<!-- <parameter name="browser" value="chrome" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.qa.opencart.tests.RegisterPageTest" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+
+
+</suite>
