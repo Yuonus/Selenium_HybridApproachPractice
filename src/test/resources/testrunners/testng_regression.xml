@@ -38,12 +38,12 @@
 	<!-- </test> -->
 
 
-	<!-- <test name="Accounts Page Test"> -->
-	<!-- <parameter name="browser" value="firefox" /> -->
-	<!-- <classes> -->
-	<!-- <class name="com.qa.opencart.tests.AccountPageTest" /> -->
-	<!-- </classes> -->
-	<!-- </test> -->
+	<test name="Accounts Page Test">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.qa.opencart.tests.AccountPageTest" />
+		</classes>
+	</test>
 
 	<test name="Product Results Page Test">
 		<parameter name="browser" value="chrome" />
@@ -53,13 +53,12 @@
 	</test>
 
 
-	<!-- <test name="Register Page Test"> -->
-	<!-- <parameter name="browser" value="chrome" /> -->
-	<!-- <classes> -->
-	<!-- <class name="com.qa.opencart.tests.RegisterPageTest" /> -->
-	<!-- </classes> -->
-	<!-- </test> -->
-
+	<test name="Register Page Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.qa.opencart.tests.RegisterPageTest" />
+		</classes>
+	</test>
 
 
 </suite>
