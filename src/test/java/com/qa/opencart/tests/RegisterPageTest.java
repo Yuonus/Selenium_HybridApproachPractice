@@ -25,33 +25,33 @@ public class RegisterPageTest extends BaseTest {
 //		return "testAutomation" + UUID.randomUUID() + "@gmail.com";
 	}
 
-//	@DataProvider
-//	public Object[][] getUserRegData() {
-//		return new Object[][] {
-//			{"Rajat", "Sharma",  "123456789", "abc123", "abc123", "yes"},
-//			{"naveen", "kunteta",  "123456789", "abc123", "abc123", "yes"},
-//			{"Sonali", "Bandari",  "123456789", "abc123", "abc123", "yes"},
-//		};
-//	}
-
-//	@Test(dataProvider = "getUserRegData")
-//	public void userRegTest(String firstName, String lastName, String telephone, String password,
-//			String confirmPassword, String subscribe) {
-//		boolean isRegDone = registerPage.userRegistration(firstName, lastName, getRandomEmailID(firstName), telephone,
-//				password, confirmPassword, subscribe);
-//		Assert.assertTrue(isRegDone);
-//	}
-
 	@DataProvider
-	public Object[][] getUserRegTestExcelData() {
-		Object regData[][] = ExcelUtils.getTestData(AppConstants.REGISTER_DATA_SHEET_NAME);
-		return regData;
+	public Object[][] getUserRegData() {
+		return new Object[][] {
+			{"Rajat", "Sharma",  "123456789", "abc123", "abc123", "yes"},
+			{"naveen", "kunteta",  "123456789", "abc123", "abc123", "yes"},
+			{"Sonali", "Bandari",  "123456789", "abc123", "abc123", "yes"},
+		};
 	}
-	
-	@Test (dataProvider = "getUserRegTestExcelData")
-	public void userRegTest(String firstName, String lastName, String telephone, String password, String confirmPassword, String subscribe) {
-		boolean isRegDone = registerPage.userRegistration(firstName, lastName, getRandomEmailID(firstName), telephone, password, confirmPassword, subscribe);
+
+	@Test(dataProvider = "getUserRegData")
+	public void userRegTest(String firstName, String lastName, String telephone, String password,
+			String confirmPassword, String subscribe) {
+		boolean isRegDone = registerPage.userRegistration(firstName, lastName, getRandomEmailID(firstName), telephone,
+				password, confirmPassword, subscribe);
 		Assert.assertTrue(isRegDone);
 	}
+
+//	@DataProvider
+//	public Object[][] getUserRegTestExcelData() {
+//		Object regData[][] = ExcelUtils.getTestData(AppConstants.REGISTER_DATA_SHEET_NAME);
+//		return regData;
+//	}
+//	
+//	@Test (dataProvider = "getUserRegTestExcelData")
+//	public void userRegTest(String firstName, String lastName, String telephone, String password, String confirmPassword, String subscribe) {
+//		boolean isRegDone = registerPage.userRegistration(firstName, lastName, getRandomEmailID(firstName), telephone, password, confirmPassword, subscribe);
+//		Assert.assertTrue(isRegDone);
+//	}
 
 }
