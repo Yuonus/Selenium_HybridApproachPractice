@@ -22,9 +22,9 @@ public class DriverFactory {
 
 	public WebDriver initDriver(Properties prop) {
 
-//		String browserName = prop.getProperty("browser");
+		String browserName = prop.getProperty("browser");
 		// Add for mvn clean install
-		String browserName = System.getProperty("browser");
+//		String browserName = System.getProperty("browser");
 		System.out.println("browser name is: " + browserName);
 
 		optionsManager = new OptionsManager(prop);
@@ -95,7 +95,7 @@ public class DriverFactory {
 					break;
 
 				default:
-					System.out.println("Please pass the right environemt name: " + envName);
+					System.out.println("Please pass the right environmentt name: " + envName);
 					throw new FrameworkException("Wrong Env Name: " + envName);
 				}
 			}
