@@ -36,7 +36,7 @@ pipeline
             steps {
                 catchError (buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                     git 'https://github.com/Yuonus/Selenium_HybridApproachPractice.git'
-                    bat "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testrunners/testng_regression.xml" 
+                    bat "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testrunners/testng_regression.xml -Dallure.results.directory=allure-results/regression" 
                 }
             }
         }
@@ -50,7 +50,7 @@ pipeline
                         jdk: '',
                         properties: [],
                         reportBuildPolicy: 'ALWAYS',
-                        results: [[path: '/allure-results/regression']]
+                        results: [[path: 'allure-results/regression']]
                     ])
                 }
             }
@@ -79,7 +79,7 @@ pipeline
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                     git 'https://github.com/Yuonus/Selenium_HybridApproachPractice.git'
-                    bat "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testrunners/testng_sanity.xml"
+                    bat "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testrunners/testng_sanity.xml -Dallure.results.directory=allure-results/sanity"
                     
                 }
             }
@@ -95,7 +95,7 @@ pipeline
                         jdk: '',
                         properties: [],
                         reportBuildPolicy: 'ALWAYS',
-                        results: [[path: '/allure-results/sanity']]
+                        results: [[path: 'allure-results/sanity']]
                     ])
                 }
             }
