@@ -151,10 +151,12 @@
 				<configuration>
 					<forkCount>3</forkCount>
 					<reuseForks>true</reuseForks>
-					<!-- This is where we configure the path of the testng_regression.xml 
+					<!-- This is where we configure the path of the
+					testng_regression.xml 
 						file -->
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/resources/testrunners/testng_regression.xml</suiteXmlFile>
+						<!--<suiteXmlFile>src/test/resources/testrunners/testng_regression.xml</suiteXmlFile>-->
+						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 					</suiteXmlFiles>
 
 					<argLine>
